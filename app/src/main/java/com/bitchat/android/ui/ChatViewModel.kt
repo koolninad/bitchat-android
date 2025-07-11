@@ -109,7 +109,7 @@ class ChatViewModel(application: Application) : AndroidViewModel(application), B
             if (state.getConnectedPeersValue().isEmpty() && state.getMessagesValue().isEmpty()) {
                 val welcomeMessage = BitchatMessage(
                     sender = "system",
-                    content = "get people around you to download Zdravo and chat with them here!",
+                    content = "get people around you to download Bitchat and chat with them here!",
                     timestamp = Date(),
                     isRelay = false
                 )

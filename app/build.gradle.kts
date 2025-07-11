@@ -18,7 +18,7 @@ android {
     compileSdk = libs.versions.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = "dev.zuzu.zdravo"
+        applicationId = "dev.hostingduty.bitchat"
         minSdk = 26  // API 26 for proper BLE support
         targetSdk = 34
         versionCode = 4

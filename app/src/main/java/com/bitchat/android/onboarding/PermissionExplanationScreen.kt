@@ -16,7 +16,7 @@ import androidx.compose.ui.unit.sp
 
 /**
  * Permission explanation screen shown before requesting permissions
- * Explains why Zdravo needs each permission and reassures users about privacy
+ * Explains why Bitchat needs each permission and reassures users about privacy
  */
 @Composable
 fun PermissionExplanationScreen(
@@ -40,7 +40,7 @@ fun PermissionExplanationScreen(
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Text(
-                text = "Welcome to Zdravo*",
+                text = "Welcome to Bitchat*",
                 style = MaterialTheme.typography.headlineMedium.copy(
                     fontFamily = FontFamily.Monospace,
                     fontWeight = FontWeight.Bold,
@@ -94,7 +94,7 @@ fun PermissionExplanationScreen(
                 }
 
                 Text(
-                    text = "• Zdravo doesn't track you or collect personal data\n" +
+                    text = "• Bitchat doesn't track you or collect personal data\n" +
                             "• No servers, no internet required, no data logging\n" +
                             "• Location permission is only used by Android for Bluetooth scanning\n" +
                             "• Your messages stay on your device and peer devices only",
@@ -109,7 +109,7 @@ fun PermissionExplanationScreen(
         Spacer(modifier = Modifier.height(8.dp))
 
         Text(
-            text = "To work properly, Zdravo needs these permissions:",
+            text = "To work properly, Bitchat needs these permissions:",
             style = MaterialTheme.typography.bodyMedium.copy(
                 fontWeight = FontWeight.Medium,
                 color = colorScheme.onSurface
@@ -224,7 +224,7 @@ private fun PermissionCategoryCard(
                         modifier = Modifier.size(16.dp)
                     )
                     Text(
-                        text = "Zdravo does NOT use GPS or track location",
+                        text = "Bitchat does NOT use GPS or track location",
                         style = MaterialTheme.typography.bodySmall.copy(
                             fontFamily = FontFamily.Monospace,
                             fontWeight = FontWeight.Medium,
